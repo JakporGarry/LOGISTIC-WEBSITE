@@ -204,143 +204,140 @@ footer li img{
 }
 .flex-wrapper{
     display: flex;
-    height: vh;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
 }
 
 /*MEDIA QUERIES*/
-
 @media screen and (max-width:830px){
 /*HEADER*/
-header .logo h1{
-    font-size: 2rem;
-}
-header li{
-    display: inline;
-    padding: 1rem 0.5rem;
-}
-nav{
-    margin:1rem;
-}
-nav a{
-    font-size: 1rem;   
-}
+    header .logo h1{
+        font-size: 2rem;
+    }
+    header li{
+        display: inline;
+        padding: 1rem 0.5rem;
+    }
+    nav{
+        margin:1rem;
+    }
+    nav a{
+        font-size: 1rem;   
+    }
 
-/*showcase*/
-.showcase{
-    height:60vh;
-}
+    /*showcase*/
+    .showcase{
+        height:60vh;
+    }
+    .showcase .img-back{
+        height:60vh ;
+    }
+    .showcase .write-up{
+        top:20%;
+    }
+    .showcase h1{
+        font-size:2.5rem; 
+    }
+    .showcase p{
+        font-size:1.5rem;
+    }
 
-.showcase .img-back{
-    height:60vh ;
-}
-.showcase .write-up{
-    top:20%;
-}
-.showcase h1{
-    font-size:2.5rem; 
-}
-.showcase p{
-    font-size:1.5rem;
-}
+    /*newsletter*/       
+    .newsletter{
+        padding:0.5rem;
+    }       
 
-/*newsletter*/       
-.newsletter{
-    padding:0.5rem;
- }       
-
-.newsletter .news{
-    margin-left: 0rem;
-}
-.newsletter form{
-    margin-top:20px ;
-}
+    .newsletter .news{
+        margin-left: 0rem;
+    }
+    .newsletter form{
+        margin-top:20px ;
+    }
 
 
 /*sidebar*/
-.main-col{
-    display: grid;
-    grid-gap:5rem;
-    grid-template-columns:1fr 1fr;
+    .main-col{
+        display: grid;
+        grid-gap:5rem;
+        grid-template-columns:1fr 1fr;
 }
 }
 
 @media screen and (max-width:600px){
 /*HEADER*/
-header li{
-    display: inline;
-    padding: 1rem 0.3rem;
+    header li{
+        display: inline;
+        padding: 1rem 0.3rem;
+    }
+    header .logo h1{
+        float:none;
+        text-align: center;
 }
-header .logo h1{
-    float:none;
-    text-align: center;
-}
-nav{
-    float:none;
-    text-align: center;
-}
-/*showcase*/
-.showcase .write-up{
-    top:25%;
+    nav{
+        float:none;
+        text-align: center;
+    }
+    /*showcase*/
+    .showcase .write-up{
+        top:25%;
 }
 /*newsletter*/
-.newsletter{
-    display: block;
-    margin: auto;
-    text-align: center;
- }       
+    .newsletter{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }       
 
-.newsletter .news{
-    display: block;
-    margin:auto;
-}
-.newsletter form{
-    margin-bottom:1rem ;
+    .newsletter .news{
+        display: block;
+        margin:auto;
+    }
+    .newsletter form{
+        margin-bottom:1rem ;
 }
 
 /*contacts*/
-.contact-grid{
-    display: block;
-    text-align: center;
-}
+    .contact-grid{
+        display: block;
+        text-align: center;
+    }
 
 /*footer*/
-footer li{
-    padding: 0px 20px;
-}
-footer li img{
-    height: 30px;
-}
+    footer li{
+        padding: 0px 20px;
+    }
+    footer li img{
+        height: 30px;
+    }
 
 /*sidebar*/
-.main-col{
-    display: grid;
-    grid-gap:0rem;
-    grid-template-columns:1fr;
-}
-#sidebar{
-    margin-bottom: 2rem;
-}
-#sidebar form{
-    width:100% ;
-    margin-bottom: 30px;
-    float:none ;
-}
-#sidebar .quote{
-    width:90%;
-}
-#sidebar .quote input{
-    width:90%;
-}
-#sidebar .quote textarea{
-    width:92%;
-    height:100px;
-}
-#sidebar .quote h3{
-    padding-top: 1rem;
-}
+    .main-col{
+        display: grid;
+        grid-gap:0rem;
+        grid-template-columns:1fr;
+    }
+    #sidebar{
+        margin-bottom: 2rem;
+    }
+    #sidebar form{
+        width:100% ;
+        margin-bottom: 30px;
+        float:none ;
+    }
+    #sidebar .quote{
+        width:90%;
+    }
+    #sidebar .quote input{
+        width:90%;
+    }
+    #sidebar .quote textarea{
+        width:92%;
+        height:100px;
+    }
+    #sidebar .quote h3{
+        padding-top: 1rem;
+    }
 }
 @media screen and (max-width:300px){
     header li{
@@ -355,24 +352,24 @@ footer li img{
     .showcase .img-back{
         height:40vh ;
     }
-.showcase .overlay{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top:0;
-    left:0;
-    background:red;  
-    opacity: 0.60;
-}
-.showcase .write-up{
-    top:15%;
-}
-.showcase h1{
-    font-size:2rem; 
-}
-.showcase p{
-    font-size:1rem;
-}
+    .showcase .overlay{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top:0;
+        left:0;
+        background:red;  
+        opacity: 0.60;
+    }
+    .showcase .write-up{
+        top:15%;
+    }
+    .showcase h1{
+        font-size:2rem; 
+    }
+    .showcase p{
+        font-size:1rem;
+    }
     footer li{
         padding: 0px 10px;
     }
